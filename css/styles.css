@@ -53,8 +53,13 @@ h1 {
   border-bottom: 1px solid #000000;
 }
 
+#right-value {
+  text-align: right;
+}
+
 .right-value {
   text-align: right;
+  font-weight: bold;
 }
 
 .row-height {
@@ -66,7 +71,13 @@ h1 {
   text-align: center;
 }
 
-tr#small-line-break-top1 {
+.margin-ish {
+  margin-top: 10px;
+}
+
+tr#small-line-break-top1, tr#small-line-break-top2, tr#small-line-break-top3, tr#small-line-break-top4, tr#small-line-break-top5,
+tr#small-line-break-top6,
+tr#small-line-break-top7,
+tr#small-line-break-top8 {
   border-top: 1px solid #000000;
-  z-index: 10000;
 }
