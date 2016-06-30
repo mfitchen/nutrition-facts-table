@@ -24,6 +24,7 @@ table {
   width: 100%;
   /*Can't add border values in tables without adding the border collapse*/
   border-collapse: collapse;
+  position: relative;
 }
 
 h1 {
